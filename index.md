@@ -12,15 +12,6 @@ toc: false
   body {
   overflow-x: hidden;
 }
-  /* Make footer span full width */
-.page__footer {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
 
   /* 1) Hide the theme masthead and remove the top gap just for this page */
   .masthead { display: none !important; }
@@ -70,6 +61,10 @@ toc: false
 
   /* 6) Small footer note */
   .updated { text-align: center; font-size: .9rem; color: #8a8a8a; margin: 18px 0 40px; }
+  
+    /* 7) Remove RSS feed icon in footer */
+  .page__footer .social-icons {
+    display: none;
 </style>
 
 <!-- Hero Banner (full width) -->
