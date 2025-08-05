@@ -146,15 +146,39 @@ toc: false
 
 <section id="organizers">
   <h2>Organizers</h2>
-  <ul>
-    <li>Andy W. H. Khong (NTU Singapore)</li>
-    <li>Patrick A. Naylor (Imperial College London)</li>
-    <li>Zhi‑Wei Tan (NTU Singapore)</li>
-    <li>V. G. Reju (NTU Singapore)</li>
-    <li>Ritesh Chandra Tewari (NTU Singapore)</li>
-    <li>Ruotong Ding (NTU Singapore)</li>
-  </ul>
+
+  <table>
+    <tr>
+      <td align="center">
+        <img src="/assets/images/organizers/andy.png" width="140"><br>
+        <strong>Andy W. H. Khong</strong><br>NTU Singapore (Chair)
+      </td>
+      <td align="center">
+        <img src="/assets/images/organizers/naylor.png" width="140"><br>
+        <strong>Patrick A. Naylor</strong><br>Imperial College London (Co-chair)
+      </td>
+      <td align="center">
+        <img src="/assets/images/organizers/zhiwei.png" width="140"><br>
+        <strong>Zhi‑Wei Tan</strong><br>NTU Singapore
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="/assets/images/organizers/reju.png" width="140"><br>
+        <strong>V. G. Reju</strong><br>NTU Singapore
+      </td>
+      <td align="center">
+        <img src="/assets/images/organizers/ritesh.png" width="140"><br>
+        <strong>Ritesh C. Tewari</strong><br>NTU Singapore
+      </td>
+      <td align="center">
+        <img src="/assets/images/organizers/ruotong.png" width="140"><br>
+        <strong>Ruotong Ding</strong><br>NTU Singapore
+      </td>
+    </tr>
+  </table>
 </section>
+
 
 <section id="contact">
   <h2>Contact</h2>
