@@ -19,7 +19,7 @@ description: >-
   Radar Acoustic Speech Enhancement Challenge @ ICASSP 2026. Recover speech from mmWave radar through glass. Dataset, baselines, and rules inside.
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: mint
 search: true
 
 # Build settings
