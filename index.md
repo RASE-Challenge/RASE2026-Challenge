@@ -7,64 +7,93 @@ author_profile: false
 
 ## About
 
-The **RASE 2026 Challenge** at **ICASSP 2026** focuses on speech enhancement from **mmWave radar** data through glass barriers. Participants will receive radar-microphone paired data, develop enhancement models, and compete for top rankings.
+The **Radar Acoustic Speech Enhancement (RASE) Challenge 2026** is an official **ICASSP Grand Challenge** that invites researchers and practitioners in speech processing, machine learning, and signal enhancement to tackle a novel task: reconstructing intelligible, full-bandwidth speech from degraded signals captured using **millimeter-wave (mmWave) radar** — even through glass walls.
+
+Conventional microphones struggle in noisy or occluded environments. mmWave FMCW radar offers a non-contact alternative by capturing surface vibrations induced by speech. However, radar-captured signals are often band-limited and noisy. This challenge aims to bridge the gap between radar sensing and high-quality speech reconstruction.
 
 ---
 
 ## Dataset
 
-Radar signals are recorded using the **TI AWR2243 mmWave radar**. The challenge includes 3 difficulty levels:
+Participants will receive a curated dataset comprising paired radar-captured and microphone-recorded speech. The data is collected using a **TI AWR2243BOOST mmWave FMCW radar** through a **glass-walled meeting room**.
 
-- **Loudspeaker diaphragm** (simplest case)  
-- **Secondary surface vibrations** (moderate)  
-- **Laptop screen in a virtual meeting setup** (most challenging)
+### Data Scenarios
 
-Paired microphone recordings are provided in `.wav` format. No radar signal processing experience is required.
+1. **Direct diaphragm vibration** (Simplest case)  
+   Radar captures strong vibrations directly from a loudspeaker diaphragm.
+
+2. **Secondary surface vibration** (Moderate case)  
+   Vibrations are induced on a desktop casing near the loudspeaker.
+
+3. **Laptop screen in virtual meeting** (Most challenging)  
+   Radar captures subtle vibrations from the laptop screen during speech playback in a simulated meeting setup.
+
+### Notes
+- All recordings are provided in `.wav` format.
+- Raw radar signals are not shared — no radar signal processing expertise is needed.
+- The dataset is split into training, development, and test sets.
+- Registered participants will receive access.
 
 ---
 
 ## Evaluation
 
-Submissions will be evaluated using:
+Submissions will be evaluated using four standard metrics:
 
 - **PESQ** – Perceptual Evaluation of Speech Quality  
 - **ESTOI** – Extended Short-Time Objective Intelligibility  
 - **DNSMOS** – Deep Noise Suppression Mean Opinion Score  
-- **MFCC Cosine Similarity**
+- **MFCC Cosine Similarity**  
 
-The final score is **difficulty-weighted**:  
-Easy (25%) + Medium (35%) + Hard (40%)
+Each difficulty level contributes a weighted score:
+- Easy: 25%
+- Medium: 35%
+- Hard: 40%
+
+Top-5 teams will be invited to present their work at ICASSP 2026.
 
 ---
 
 ## Baseline
 
-Baseline deep learning models (in PyTorch) will be provided to help participants get started. These include:
+Baseline deep learning models implemented in PyTorch will be provided to help participants kickstart their solutions. These include:
 
-- Spectral feature mapping networks  
-- Phase-aware enhancement models  
-- Preprocessing/postprocessing pipelines
+- Spectral mapping networks  
+- Phase-aware enhancement techniques  
+- Feature extraction and post-processing tools
 
-📦 **Baseline release date**: September 07, 2025
+📦 **Release date**: September 07, 2025
+
+---
+
+## Participation Guidelines
+
+To ensure fairness and reproducibility:
+
+- Use only the provided dataset — external data or augmentation is not allowed.
+- Train models from scratch (no pre-trained or fine-tuned models).
+- Max 300 training epochs allowed.
+- Submit code, trained weights, and environment (Docker or requirements file).
+- Participants retain all intellectual property rights.
 
 ---
 
 ## Timeline
 
-- 📅 **Registration Starts**: September 07, 2025  
-- 📂 **Data & Baseline Release**: September 07, 2025  
+- 📅 **Registration Opens**: September 07, 2025  
+- 📂 **Dataset & Baseline Release**: September 07, 2025  
 - 🧪 **Submission Deadline**: November 14, 2025  
 - 🏆 **Ranking Announcement**: November 24, 2025  
-- ✍️ **2-page Papers (by invite)**: December 07, 2025  
-- ✅ **Acceptance Notification**: January 11, 2026  
+- ✍️ **2-page Papers (invite only)**: December 07, 2025  
+- ✅ **Paper Acceptance Notification**: January 11, 2026  
 - 📌 **Camera-ready Deadline**: January 18, 2026
 
 ---
 
 ## Organizers
 
-- Andy W. H. Khong (NTU Singapore)  
-- Patrick A. Naylor (Imperial College London)  
+- Andy W. H. Khong (NTU Singapore) – Chair  
+- Patrick A. Naylor (Imperial College London) – Co-chair  
 - Zhi-Wei Tan (NTU Singapore)  
 - V. G. Reju (NTU Singapore)  
 - Ritesh Chandra Tewari (NTU Singapore)  
@@ -74,8 +103,7 @@ Baseline deep learning models (in PyTorch) will be provided to help participants
 
 ## Contact
 
-For inquiries, reach us at:  
-📧 **rase2026@ntu.edu.sg** *(replace with the correct address)*
+📧 For inquiries, email us at: **rase_challenge@ntu.edu.sg**
 
 ---
 
