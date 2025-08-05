@@ -68,7 +68,7 @@ toc: false
 }
   /* 8) Remove excess spacing between sections */
 section {
-  margin-bottom: 40px !important;
+  margin-bottom: 20px !important;
   padding-bottom: 0 !important;
 }
 
@@ -87,6 +87,7 @@ section {
     <a href="#dataset" class="btn">Dataset</a>
     <a href="#evaluation" class="btn">Evaluation</a>
     <a href="#baseline" class="btn">Baseline</a>
+    <a href="#guidelines" class="btn">Guidelines</a>
     <a href="#timeline" class="btn">Timeline</a>
     <a href="#organizers" class="btn">Organizers</a>
     <a href="#contact" class="btn">Contact</a>
