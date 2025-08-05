@@ -12,6 +12,16 @@ toc: false
   body {
   overflow-x: hidden;
 }
+  /* Make footer span full width */
+.page__footer {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
   /* 1) Hide the theme masthead and remove the top gap just for this page */
   .masthead { display: none !important; }
   .initial-content { padding-top: 0 !important; }
