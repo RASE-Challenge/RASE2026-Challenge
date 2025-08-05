@@ -92,12 +92,37 @@ To ensure fairness and reproducibility:
 
 ## Organizers
 
-- Andy W. H. Khong (NTU Singapore) – Chair  
-- Patrick A. Naylor (Imperial College London) – Co-chair  
-- Zhi-Wei Tan (NTU Singapore)  
-- V. G. Reju (NTU Singapore)  
-- Ritesh Chandra Tewari (NTU Singapore)  
-- Ruotong Ding (NTU Singapore)
+<table>
+  <tr>
+    <td align="center">
+      <img src="/assets/images/organizers/andy.png" width="140"><br>
+      <strong>Andy W. H. Khong</strong><br>NTU Singapore (Chair)
+    </td>
+    <td align="center">
+      <img src="/assets/images/organizers/naylor.png" width="140"><br>
+      <strong>Patrick A. Naylor</strong><br>Imperial College London (Co-chair)
+    </td>
+    <td align="center">
+      <img src="/assets/images/organizers/zhiwei.png" width="140"><br>
+      <strong>Zhi-Wei Tan</strong><br>NTU Singapore
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="/assets/images/organizers/reju.png" width="140"><br>
+      <strong>V. G. Reju</strong><br>NTU Singapore
+    </td>
+    <td align="center">
+      <img src="/assets/images/organizers/ritesh.png" width="140"><br>
+      <strong>Ritesh C. Tewari</strong><br>NTU Singapore
+    </td>
+    <td align="center">
+      <img src="/assets/images/organizers/ruotong.png" width="140"><br>
+      <strong>Ruotong Ding</strong><br>NTU Singapore
+    </td>
+  </tr>
+</table>
+
 
 ---
 
