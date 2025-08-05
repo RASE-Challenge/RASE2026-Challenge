@@ -4,15 +4,68 @@ title: "RASE 2026: Radar Acoustic Speech Enhancement"
 permalink: /
 author_profile: false
 classes: wide
-hide_nav: true
+toc: false
 ---
 
-<!-- Hero Banner -->
-<header style="text-align: center; padding: 100px 20px; background: linear-gradient(to right, #0f4c81, #28a745); color: white;">
-  <h1 style="font-size: 3em;">RASE 2026: Radar Acoustic Speech Enhancement</h1>
-  <p style="font-size: 1.5em;">ICASSP 2026 Grand Challenge</p>
+<!-- Page-specific styles -->
+<style>
+  /* 1) Hide the theme masthead and remove the top gap just for this page */
+  .masthead { display: none !important; }
+  .initial-content { padding-top: 0 !important; }
+
+  /* 2) Full-bleed helper: lets an element break out to full viewport width */
+  .full-bleed {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  /* 3) Hero (edge-to-edge gradient bar) */
+  .hero {
+    text-align: center;
+    padding: 96px 20px;
+    background: linear-gradient(90deg, #0f4c81 0%, #28a745 100%);
+    color: #fff;
+  }
+  .hero h1 { font-size: clamp(2.2rem, 4.5vw, 3.2rem); margin: 0 0 10px; font-weight: 800; }
+  .hero p.lead { font-size: clamp(1.1rem, 2.2vw, 1.5rem); margin: 6px 0; opacity: 0.95; }
+
+  /* 4) Anchor buttons under hero */
+  .btn-row { margin-top: 28px; }
+  .btn {
+    display: inline-block;
+    background: #fff;
+    color: #0f4c81;
+    padding: 10px 16px;
+    margin: 6px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid rgba(255,255,255,0.25);
+    transition: transform .05s ease, background .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover { background: #f1f1f1; transform: translateY(-1px); box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+
+  /* 5) Sections */
+  section { padding: 60px 20px; max-width: 1100px; margin: 0 auto; }
+  section h2 { font-weight: 800; margin-bottom: 12px; }
+  section p, section li { font-size: 1.05rem; line-height: 1.65; }
+  ul { margin-top: 6px; }
+
+  /* 6) Small footer note */
+  .updated { text-align: center; font-size: .9rem; color: #8a8a8a; margin: 18px 0 40px; }
+</style>
+
+<!-- Hero Banner (full width) -->
+<header class="hero full-bleed">
+  <h1>RASE 2026: Radar Acoustic Speech Enhancement</h1>
+  <p class="lead">ICASSP 2026 Grand Challenge</p>
   <p>Speech enhancement through glass using mmWave radar</p>
-  <div style="margin-top: 30px;">
+
+  <div class="btn-row">
     <a href="#about" class="btn">About</a>
     <a href="#dataset" class="btn">Dataset</a>
     <a href="#evaluation" class="btn">Evaluation</a>
@@ -23,35 +76,14 @@ hide_nav: true
   </div>
 </header>
 
-<style>
-  .btn {
-    background: white;
-    color: #0f4c81;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  .btn:hover {
-    background: #e8e8e8;
-  }
-  section {
-    padding: 60px 20px;
-    max-width: 1500px;
-    margin: auto;
-  }
-  h2 {
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 5px;
-  }
-</style>
-
----
-
 <section id="about">
   <h2>About</h2>
-  <p>The <strong>RASE 2026 Challenge</strong> at <strong>ICASSP 2026</strong> focuses on speech enhancement from <strong>mmWave radar</strong> data through glass barriers. Participants will receive radar-microphone paired data, develop enhancement models, and compete for top rankings.</p>
+  <p>
+    The <strong>RASE 2026 Challenge</strong> at <strong>ICASSP 2026</strong> focuses on
+    speech enhancement from <strong>mmWave radar</strong> data through glass barriers.
+    Participants will receive radar–microphone paired data, develop enhancement models,
+    and compete for top rankings.
+  </p>
 </section>
 
 <section id="dataset">
@@ -74,7 +106,7 @@ hide_nav: true
     <li><strong>DNSMOS</strong> – Deep Noise Suppression Mean Opinion Score</li>
     <li><strong>MFCC Cosine Similarity</strong></li>
   </ul>
-  <p>Final score is difficulty-weighted: Easy (25%) + Medium (35%) + Hard (40%)</p>
+  <p><strong>Final score is difficulty‑weighted:</strong> Easy (25%) + Medium (35%) + Hard (40%).</p>
 </section>
 
 <section id="baseline">
@@ -82,8 +114,8 @@ hide_nav: true
   <p>Baseline PyTorch models include:</p>
   <ul>
     <li>Spectral feature mapping networks</li>
-    <li>Phase-aware enhancement models</li>
-    <li>Pre/post-processing pipelines</li>
+    <li>Phase‑aware enhancement models</li>
+    <li>Pre/post‑processing pipelines</li>
   </ul>
   <p><strong>Baseline Release:</strong> September 07, 2025</p>
 </section>
@@ -95,9 +127,9 @@ hide_nav: true
     <li>📂 <strong>Data & Baseline Release:</strong> September 07, 2025</li>
     <li>🧪 <strong>Submission Deadline:</strong> November 14, 2025</li>
     <li>🏆 <strong>Ranking Announcement:</strong> November 24, 2025</li>
-    <li>✍️ <strong>2-page Papers:</strong> December 07, 2025</li>
+    <li>✍️ <strong>2‑page Papers (by invite):</strong> December 07, 2025</li>
     <li>✅ <strong>Acceptance Notification:</strong> January 11, 2026</li>
-    <li>📌 <strong>Camera-ready Deadline:</strong> January 18, 2026</li>
+    <li>📌 <strong>Camera‑ready Deadline:</strong> January 18, 2026</li>
   </ul>
 </section>
 
@@ -106,7 +138,7 @@ hide_nav: true
   <ul>
     <li>Andy W. H. Khong (NTU Singapore)</li>
     <li>Patrick A. Naylor (Imperial College London)</li>
-    <li>Zhi-Wei Tan (NTU Singapore)</li>
+    <li>Zhi‑Wei Tan (NTU Singapore)</li>
     <li>V. G. Reju (NTU Singapore)</li>
     <li>Ritesh Chandra Tewari (NTU Singapore)</li>
     <li>Ruotong Ding (NTU Singapore)</li>
@@ -118,6 +150,4 @@ hide_nav: true
   <p>📧 <strong>rase2026@ntu.edu.sg</strong></p>
 </section>
 
----
-
-<p style="text-align: center; font-size: small; color: gray;">Last updated: August 5, 2025</p>
+<p class="updated">Last updated: August 5, 2025</p>
