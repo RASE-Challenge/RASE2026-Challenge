@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "RASE 2026: Radar Acoustic Speech Enhancement"
+title: ""
 permalink: /
 author_profile: false
 classes: wide
