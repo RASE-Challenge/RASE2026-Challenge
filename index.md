@@ -66,6 +66,12 @@ toc: false
     .page__footer {
   display: none !important;
 }
+  /* 8) Remove excess spacing between sections */
+section {
+  margin-bottom: 40px !important;
+  padding-bottom: 0 !important;
+}
+
   }
 
 </style>
