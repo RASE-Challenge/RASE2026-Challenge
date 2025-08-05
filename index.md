@@ -4,6 +4,7 @@ title: "RASE 2026: Radar Acoustic Speech Enhancement"
 permalink: /
 author_profile: false
 classes: wide
+hide_nav: true
 ---
 
 <!-- Hero Banner -->
@@ -37,7 +38,7 @@ classes: wide
   }
   section {
     padding: 60px 20px;
-    max-width: 900px;
+    max-width: 1500px;
     margin: auto;
   }
   h2 {
