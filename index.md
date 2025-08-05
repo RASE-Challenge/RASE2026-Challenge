@@ -88,47 +88,87 @@ toc: false
 </header>
 
 <section id="about">
-  <h2>About</h2>
+  <h2>Call for Participation</h2>
   <p>
-    The <strong>RASE 2026 Challenge</strong> at <strong>ICASSP 2026</strong> focuses on
-    speech enhancement from <strong>mmWave radar</strong> data through glass barriers.
-    Participants will receive radar–microphone paired data, develop enhancement models,
-    and compete for top rankings.
+    The <strong>Radar Acoustic Speech Enhancement (RASE) Challenge 2026</strong> is an official <strong>ICASSP Grand Challenge</strong> that invites researchers and practitioners in speech processing, machine learning, and signal enhancement to tackle a novel task: reconstructing intelligible, full-bandwidth speech from degraded signals captured using <strong>millimeter-wave (mmWave) radar</strong> — even through glass walls.
+  </p>
+  <p>
+    Conventional microphones struggle in noisy or occluded environments. mmWave FMCW radar offers a non-contact alternative by capturing surface vibrations induced by speech. However, radar-captured signals are often band-limited and noisy. This challenge aims to bridge the gap between radar sensing and high-quality speech reconstruction.
   </p>
 </section>
 
 <section id="dataset">
   <h2>Dataset</h2>
-  <p>Radar signals are recorded using the <strong>TI AWR2243 mmWave radar</strong>. The challenge includes 3 difficulty levels:</p>
+  <p>
+    Participants will receive a curated dataset comprising paired radar-captured and microphone-recorded speech. The data is collected using a 
+    <strong>TI AWR2243BOOST mmWave FMCW radar</strong> through a <strong>glass-walled meeting room</strong>.
+  </p>
+
+  <h3>Data Scenarios</h3>
   <ul>
-    <li><strong>Loudspeaker diaphragm</strong> (simplest)</li>
-    <li><strong>Secondary surface vibrations</strong> (moderate)</li>
-    <li><strong>Laptop screen in a virtual meeting</strong> (most challenging)</li>
+    <li><strong>Direct diaphragm vibration</strong> (Simplest case)<br>
+      Radar captures strong vibrations directly from a loudspeaker diaphragm.
+    </li>
+    <li><strong>Secondary surface vibration</strong> (Moderate case)<br>
+      Vibrations are induced on a desktop casing near the loudspeaker.
+    </li>
+    <li><strong>Laptop screen in virtual meeting</strong> (Most challenging)<br>
+      Radar captures subtle vibrations from the laptop screen during speech playback in a simulated meeting setup.
+    </li>
   </ul>
-  <p>Paired microphone recordings are provided in <code>.wav</code> format. No radar processing knowledge is required.</p>
+
+  <h3>Notes</h3>
+  <ul>
+    <li>All recordings are provided in <code>.wav</code> format.</li>
+    <li>Raw radar signals are <strong>not shared</strong> — no radar signal processing expertise is needed.</li>
+    <li>The dataset is split into <strong>training</strong>, <strong>development</strong>, and <strong>test</strong> sets.</li>
+    <li><strong>Registered participants</strong> will receive access.</li>
+  </ul>
 </section>
+
 
 <section id="evaluation">
   <h2>Evaluation</h2>
-  <p>Submissions will be evaluated using:</p>
+  <p>Submissions will be evaluated using four standard metrics:</p>
   <ul>
     <li><strong>PESQ</strong> – Perceptual Evaluation of Speech Quality</li>
     <li><strong>ESTOI</strong> – Extended Short-Time Objective Intelligibility</li>
     <li><strong>DNSMOS</strong> – Deep Noise Suppression Mean Opinion Score</li>
     <li><strong>MFCC Cosine Similarity</strong></li>
   </ul>
-  <p><strong>Final score is difficulty‑weighted:</strong> Easy (25%) + Medium (35%) + Hard (40%).</p>
+
+  <p><strong>Difficulty-weighted scoring:</strong></p>
+  <ul>
+    <li>Easy: 25%</li>
+    <li>Medium: 35%</li>
+    <li>Hard: 40%</li>
+  </ul>
+
+  <p><strong>Top‑5 teams</strong> will be invited to present their work at <strong>ICASSP 2026</strong>.</p>
 </section>
+
 
 <section id="baseline">
   <h2>Baseline</h2>
-  <p>Baseline PyTorch models include:</p>
+  <p>Baseline deep learning models implemented in <strong>PyTorch</strong> will be provided to help participants kickstart their solutions. These include:</p>
   <ul>
-    <li>Spectral feature mapping networks</li>
-    <li>Phase‑aware enhancement models</li>
-    <li>Pre/post‑processing pipelines</li>
+    <li>Spectral mapping networks</li>
+    <li>Phase-aware enhancement techniques</li>
+    <li>Feature extraction and post-processing tools</li>
   </ul>
-  <p><strong>Baseline Release:</strong> September 07, 2025</p>
+  <p>📦 <strong>Release date:</strong> September 07, 2025</p>
+</section>
+
+<section id="guidelines">
+  <h2>Participation Guidelines</h2>
+  <p>To ensure fairness and reproducibility:</p>
+  <ul>
+    <li>Use only the provided dataset — external data or augmentation is not allowed.</li>
+    <li>Train models from scratch (no pre-trained or fine-tuned models).</li>
+    <li>Maximum of 300 training epochs allowed.</li>
+    <li>Submit code, trained weights, and environment (Docker or requirements file).</li>
+    <li>Participants retain all intellectual property rights.</li>
+  </ul>
 </section>
 
 <section id="timeline">
