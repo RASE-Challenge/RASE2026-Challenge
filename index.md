@@ -63,8 +63,10 @@ toc: false
   .updated { text-align: center; font-size: .9rem; color: #8a8a8a; margin: 18px 0 40px; }
   
     /* 7) Remove RSS feed icon in footer */
-  .page__footer .social-icons {
-    display: none;
+    .page__footer {
+  display: none !important;
+}
+
 </style>
 
 <!-- Hero Banner (full width) -->
