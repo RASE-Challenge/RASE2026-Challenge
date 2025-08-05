@@ -68,7 +68,7 @@ toc: false
 }
   /* 8) Remove excess spacing between sections */
 section {
-  margin-bottom: 20px !important;
+  margin-bottom: 5px !important;
   padding-bottom: 0 !important;
 }
 
