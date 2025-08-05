@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: null
 title: ""
 permalink: /
 author_profile: false
@@ -66,10 +66,6 @@ toc: false
     .page__footer {
   display: none !important;
 }
-  /* 8) Remove extra space above banner */
-  .page__inner-wrap {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
   }
 
 </style>
