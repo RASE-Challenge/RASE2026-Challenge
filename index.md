@@ -3,133 +3,120 @@ layout: single
 title: "RASE 2026: Radar Acoustic Speech Enhancement"
 permalink: /
 author_profile: false
+classes: wide
 ---
 
-## About
+<!-- Hero Banner -->
+<header style="text-align: center; padding: 100px 20px; background: linear-gradient(to right, #0f4c81, #28a745); color: white;">
+  <h1 style="font-size: 3em;">RASE 2026: Radar Acoustic Speech Enhancement</h1>
+  <p style="font-size: 1.5em;">ICASSP 2026 Grand Challenge</p>
+  <p>Speech enhancement through glass using mmWave radar</p>
+  <div style="margin-top: 30px;">
+    <a href="#about" class="btn">About</a>
+    <a href="#dataset" class="btn">Dataset</a>
+    <a href="#evaluation" class="btn">Evaluation</a>
+    <a href="#baseline" class="btn">Baseline</a>
+    <a href="#timeline" class="btn">Timeline</a>
+    <a href="#organizers" class="btn">Organizers</a>
+    <a href="#contact" class="btn">Contact</a>
+  </div>
+</header>
 
-The **Radar Acoustic Speech Enhancement (RASE) Challenge 2026** is an official **ICASSP Grand Challenge** that invites researchers and practitioners in speech processing, machine learning, and signal enhancement to tackle a novel task: reconstructing intelligible, full-bandwidth speech from degraded signals captured using **millimeter-wave (mmWave) radar** — even through glass walls.
-
-Conventional microphones struggle in noisy or occluded environments. mmWave FMCW radar offers a non-contact alternative by capturing surface vibrations induced by speech. However, radar-captured signals are often band-limited and noisy. This challenge aims to bridge the gap between radar sensing and high-quality speech reconstruction.
-
----
-
-## Dataset
-
-Participants will receive a curated dataset comprising paired radar-captured and microphone-recorded speech. The data is collected using a **TI AWR2243BOOST mmWave FMCW radar** through a **glass-walled meeting room**.
-
-### Data Scenarios
-
-1. **Direct diaphragm vibration** (Simplest case)  
-   Radar captures strong vibrations directly from a loudspeaker diaphragm.
-
-2. **Secondary surface vibration** (Moderate case)  
-   Vibrations are induced on a desktop casing near the loudspeaker.
-
-3. **Laptop screen in virtual meeting** (Most challenging)  
-   Radar captures subtle vibrations from the laptop screen during speech playback in a simulated meeting setup.
-
-### Notes
-- All recordings are provided in `.wav` format.
-- Raw radar signals are not shared — no radar signal processing expertise is needed.
-- The dataset is split into training, development, and test sets.
-- Registered participants will receive access.
-
----
-
-## Evaluation
-
-Submissions will be evaluated using four standard metrics:
-
-- **PESQ** – Perceptual Evaluation of Speech Quality  
-- **ESTOI** – Extended Short-Time Objective Intelligibility  
-- **DNSMOS** – Deep Noise Suppression Mean Opinion Score  
-- **MFCC Cosine Similarity**  
-
-Each difficulty level contributes a weighted score:
-- Easy: 25%
-- Medium: 35%
-- Hard: 40%
-
-Top-5 teams will be invited to present their work at ICASSP 2026.
+<style>
+  .btn {
+    background: white;
+    color: #0f4c81;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background: #e8e8e8;
+  }
+  section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+</style>
 
 ---
 
-## Baseline
+<section id="about">
+  <h2>About</h2>
+  <p>The <strong>RASE 2026 Challenge</strong> at <strong>ICASSP 2026</strong> focuses on speech enhancement from <strong>mmWave radar</strong> data through glass barriers. Participants will receive radar-microphone paired data, develop enhancement models, and compete for top rankings.</p>
+</section>
 
-Baseline deep learning models implemented in PyTorch will be provided to help participants kickstart their solutions. These include:
+<section id="dataset">
+  <h2>Dataset</h2>
+  <p>Radar signals are recorded using the <strong>TI AWR2243 mmWave radar</strong>. The challenge includes 3 difficulty levels:</p>
+  <ul>
+    <li><strong>Loudspeaker diaphragm</strong> (simplest)</li>
+    <li><strong>Secondary surface vibrations</strong> (moderate)</li>
+    <li><strong>Laptop screen in a virtual meeting</strong> (most challenging)</li>
+  </ul>
+  <p>Paired microphone recordings are provided in <code>.wav</code> format. No radar processing knowledge is required.</p>
+</section>
 
-- Spectral mapping networks  
-- Phase-aware enhancement techniques  
-- Feature extraction and post-processing tools
+<section id="evaluation">
+  <h2>Evaluation</h2>
+  <p>Submissions will be evaluated using:</p>
+  <ul>
+    <li><strong>PESQ</strong> – Perceptual Evaluation of Speech Quality</li>
+    <li><strong>ESTOI</strong> – Extended Short-Time Objective Intelligibility</li>
+    <li><strong>DNSMOS</strong> – Deep Noise Suppression Mean Opinion Score</li>
+    <li><strong>MFCC Cosine Similarity</strong></li>
+  </ul>
+  <p>Final score is difficulty-weighted: Easy (25%) + Medium (35%) + Hard (40%)</p>
+</section>
 
-📦 **Release date**: September 07, 2025
+<section id="baseline">
+  <h2>Baseline</h2>
+  <p>Baseline PyTorch models include:</p>
+  <ul>
+    <li>Spectral feature mapping networks</li>
+    <li>Phase-aware enhancement models</li>
+    <li>Pre/post-processing pipelines</li>
+  </ul>
+  <p><strong>Baseline Release:</strong> September 07, 2025</p>
+</section>
 
----
+<section id="timeline">
+  <h2>Timeline</h2>
+  <ul>
+    <li>📅 <strong>Registration Starts:</strong> September 07, 2025</li>
+    <li>📂 <strong>Data & Baseline Release:</strong> September 07, 2025</li>
+    <li>🧪 <strong>Submission Deadline:</strong> November 14, 2025</li>
+    <li>🏆 <strong>Ranking Announcement:</strong> November 24, 2025</li>
+    <li>✍️ <strong>2-page Papers:</strong> December 07, 2025</li>
+    <li>✅ <strong>Acceptance Notification:</strong> January 11, 2026</li>
+    <li>📌 <strong>Camera-ready Deadline:</strong> January 18, 2026</li>
+  </ul>
+</section>
 
-## Participation Guidelines
+<section id="organizers">
+  <h2>Organizers</h2>
+  <ul>
+    <li>Andy W. H. Khong (NTU Singapore)</li>
+    <li>Patrick A. Naylor (Imperial College London)</li>
+    <li>Zhi-Wei Tan (NTU Singapore)</li>
+    <li>V. G. Reju (NTU Singapore)</li>
+    <li>Ritesh Chandra Tewari (NTU Singapore)</li>
+    <li>Ruotong Ding (NTU Singapore)</li>
+  </ul>
+</section>
 
-To ensure fairness and reproducibility:
-
-- Use only the provided dataset — external data or augmentation is not allowed.
-- Train models from scratch (no pre-trained or fine-tuned models).
-- Max 300 training epochs allowed.
-- Submit code, trained weights, and environment (Docker or requirements file).
-- Participants retain all intellectual property rights.
-
----
-
-## Timeline
-
-- 📅 **Registration Opens**: September 07, 2025  
-- 📂 **Dataset & Baseline Release**: September 07, 2025  
-- 🧪 **Submission Deadline**: November 14, 2025  
-- 🏆 **Ranking Announcement**: November 24, 2025  
-- ✍️ **2-page Papers (invite only)**: December 07, 2025  
-- ✅ **Paper Acceptance Notification**: January 11, 2026  
-- 📌 **Camera-ready Deadline**: January 18, 2026
-
----
-
-## Organizers
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="/assets/images/organizers/andy.png" width="140"><br>
-      <strong>Andy W. H. Khong</strong><br>NTU Singapore (Chair)
-    </td>
-    <td align="center">
-      <img src="/assets/images/organizers/naylor.png" width="140"><br>
-      <strong>Patrick A. Naylor</strong><br>Imperial College London (Co-chair)
-    </td>
-    <td align="center">
-      <img src="/assets/images/organizers/zhiwei.png" width="140"><br>
-      <strong>Zhi-Wei Tan</strong><br>NTU Singapore
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="/assets/images/organizers/reju.png" width="140"><br>
-      <strong>V. G. Reju</strong><br>NTU Singapore
-    </td>
-    <td align="center">
-      <img src="/assets/images/organizers/ritesh.png" width="140"><br>
-      <strong>Ritesh C. Tewari</strong><br>NTU Singapore
-    </td>
-    <td align="center">
-      <img src="/assets/images/organizers/ruotong.png" width="140"><br>
-      <strong>Ruotong Ding</strong><br>NTU Singapore
-    </td>
-  </tr>
-</table>
-
-
----
-
-## Contact
-
-📧 For inquiries, email us at: **rase_challenge@ntu.edu.sg**
+<section id="contact">
+  <h2>Contact</h2>
+  <p>📧 <strong>rase2026@ntu.edu.sg</strong></p>
+</section>
 
 ---
 
-_Last updated: August 5, 2025_
+<p style="text-align: center; font-size: small; color: gray;">Last updated: August 5, 2025</p>
