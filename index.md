@@ -147,42 +147,38 @@ toc: false
 <section id="organizers">
   <h2>Organizers</h2>
 
-  <table>
-    <tr>
-      <td align="center">
-        <img src="/assets/images/organizers/andy.png" width="140"><br>
-        <strong>Andy W. H. Khong</strong><br>NTU Singapore (Chair)
-      </td>
-      <td align="center">
-        <img src="/assets/images/organizers/naylor.png" width="140"><br>
-        <strong>Patrick A. Naylor</strong><br>Imperial College London (Co-chair)
-      </td>
-      <td align="center">
-        <img src="/assets/images/organizers/zhiwei.png" width="140"><br>
-        <strong>Zhi‑Wei Tan</strong><br>NTU Singapore
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="/assets/images/organizers/reju.png" width="140"><br>
-        <strong>V. G. Reju</strong><br>NTU Singapore
-      </td>
-      <td align="center">
-        <img src="/assets/images/organizers/ritesh.png" width="140"><br>
-        <strong>Ritesh C. Tewari</strong><br>NTU Singapore
-      </td>
-      <td align="center">
-        <img src="/assets/images/organizers/ruotong.png" width="140"><br>
-        <strong>Ruotong Ding</strong><br>NTU Singapore
-      </td>
-    </tr>
-  </table>
+  <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 40px; justify-content: center;">
+    <div style="text-align: center;">
+      <img src="/assets/images/organizers/andy.png" width="140"><br>
+      <strong>Andy W. H. Khong</strong><br>NTU Singapore (Chair)
+    </div>
+    <div style="text-align: center;">
+      <img src="/assets/images/organizers/naylor.png" width="140"><br>
+      <strong>Patrick A. Naylor</strong><br>Imperial College London (Co-chair)
+    </div>
+    <div style="text-align: center;">
+      <img src="/assets/images/organizers/zhiwei.png" width="140"><br>
+      <strong>Zhi‑Wei Tan</strong><br>NTU Singapore
+    </div>
+    <div style="text-align: center;">
+      <img src="/assets/images/organizers/reju.png" width="140"><br>
+      <strong>V. G. Reju</strong><br>NTU Singapore
+    </div>
+    <div style="text-align: center;">
+      <img src="/assets/images/organizers/ritesh.png" width="140"><br>
+      <strong>Ritesh C. Tewari</strong><br>NTU Singapore
+    </div>
+    <div style="text-align: center;">
+      <img src="/assets/images/organizers/ruotong.png" width="140"><br>
+      <strong>Ruotong Ding</strong><br>NTU Singapore
+    </div>
+  </div>
 </section>
 
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>📧 <strong>rase2026@ntu.edu.sg</strong></p>
+  <p>📧 <strong>rase_challenge@ntu.edu.sg</strong></p>
 </section>
 
 <p class="updated">Last updated: August 5, 2025</p>
