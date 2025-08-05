@@ -9,6 +9,9 @@ toc: false
 
 <!-- Page-specific styles -->
 <style>
+  body {
+  overflow-x: hidden;
+}
   /* 1) Hide the theme masthead and remove the top gap just for this page */
   .masthead { display: none !important; }
   .initial-content { padding-top: 0 !important; }
