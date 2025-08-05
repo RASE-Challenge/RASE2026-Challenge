@@ -66,11 +66,19 @@ toc: false
     .page__footer {
   display: none !important;
 }
-  /* 8) Remove excess spacing between sections */
+  /* 8) Remove excess vertical spacing between sections */
 section {
-  margin-bottom: 5px !important;
-  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 30px !important;
+  padding-bottom: 10px !important;
 }
+
+/* 9) Remove top margin of h2 headings in sections */
+section h2 {
+  margin-top: 0 !important;
+}
+
 
   }
 
