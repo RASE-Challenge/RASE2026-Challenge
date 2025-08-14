@@ -201,34 +201,34 @@ section h2 {
 
 <section id="organizers">
   <h2>Organizers</h2>
-
-  <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 40px; justify-content: center;">
-    <div style="text-align: center;">
-      <img src="/assets/images/organizers/andy.png" width="140"><br>
+  <div style="display:flex; flex-wrap:nowrap; overflow-x:auto; gap:40px; justify-content:center;">
+    <div style="text-align:center;">
+      <img src="{{ '/assets/images/organizers/andy.png'    | relative_url }}" width="140" alt="Andy W. H. Khong"><br>
       <strong>Andy W. H. Khong</strong><br>NTU Singapore (Chair)
     </div>
-    <div style="text-align: center;">
-      <img src="/assets/images/organizers/naylor.png" width="140"><br>
+    <div style="text-align:center;">
+      <img src="{{ '/assets/images/organizers/naylor.png'  | relative_url }}" width="140" alt="Patrick A. Naylor"><br>
       <strong>Patrick A. Naylor</strong><br>Imperial College London (Co-chair)
     </div>
-    <div style="text-align: center;">
-      <img src="/assets/images/organizers/zhiwei.png" width="140"><br>
-      <strong>Zhi‑Wei Tan</strong><br>NTU Singapore
+    <div style="text-align:center;">
+      <img src="{{ '/assets/images/organizers/zhiwei.png'  | relative_url }}" width="140" alt="Zhi-Wei Tan"><br>
+      <strong>Zhi-Wei Tan</strong><br>NTU Singapore
     </div>
-    <div style="text-align: center;">
-      <img src="/assets/images/organizers/reju.png" width="140"><br>
+    <div style="text-align:center;">
+      <img src="{{ '/assets/images/organizers/reju.png'    | relative_url }}" width="140" alt="V. G. Reju"><br>
       <strong>V. G. Reju</strong><br>NTU Singapore
     </div>
-    <div style="text-align: center;">
-      <img src="/assets/images/organizers/ritesh.png" width="140"><br>
+    <div style="text-align:center;">
+      <img src="{{ '/assets/images/organizers/ritesh.png'  | relative_url }}" width="140" alt="Ritesh C. Tewari"><br>
       <strong>Ritesh C. Tewari</strong><br>NTU Singapore
     </div>
-    <div style="text-align: center;">
-      <img src="/assets/images/organizers/ruotong.png" width="140"><br>
+    <div style="text-align:center;">
+      <img src="{{ '/assets/images/organizers/ruotong.png' | relative_url }}" width="140" alt="Ruotong Ding"><br>
       <strong>Ruotong Ding</strong><br>NTU Singapore
     </div>
   </div>
 </section>
+
 
 
 <section id="contact">
