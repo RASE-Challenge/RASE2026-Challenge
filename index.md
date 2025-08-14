@@ -212,19 +212,19 @@ section h2 {
     </div>
     <div style="text-align:center;">
       <img src="{{ '/assets/images/organizers/zhiwei.png'  | relative_url }}" width="140" alt="Zhi-Wei Tan"><br>
-      <strong>Zhi-Wei Tan</strong><br>NTU Singapore
+      <strong>Zhi-Wei Tan</strong><br>NTU Singapore (Scientific Strategy)
     </div>
     <div style="text-align:center;">
       <img src="{{ '/assets/images/organizers/reju.png'    | relative_url }}" width="140" alt="V. G. Reju"><br>
-      <strong>V. G. Reju</strong><br>NTU Singapore
+      <strong>V. G. Reju</strong><br>NTU Singapore (Radar Systems)
     </div>
     <div style="text-align:center;">
       <img src="{{ '/assets/images/organizers/ritesh.png'  | relative_url }}" width="140" alt="Ritesh C. Tewari"><br>
-      <strong>Ritesh C. Tewari</strong><br>NTU Singapore
+      <strong>Ritesh C. Tewari</strong><br>NTU Singapore (Technical Infrastructure)
     </div>
     <div style="text-align:center;">
       <img src="{{ '/assets/images/organizers/ruotong.png' | relative_url }}" width="140" alt="Ruotong Ding"><br>
-      <strong>Ruotong Ding</strong><br>NTU Singapore
+      <strong>Ruotong Ding</strong><br>NTU Singapore (Computational Research)
     </div>
   </div>
 </section>
