@@ -79,9 +79,15 @@ section h2 {
   margin-top: 0 !important;
 }
 
-
-  }
-
+/* 10) Make all organizer headshots uniform */
+#organizers img {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;  /* optional */
+  display: block;
+}
 </style>
 
 <!-- Hero Banner (full width) -->
