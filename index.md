@@ -239,7 +239,7 @@ section h2 {
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>📧 <strong>rase_challenge@ntu.edu.sg</strong></p>
+  <p>📧 <strong>rase-challenge@ntu.edu.sg</strong></p>
 </section>
 
 <p class="updated">Last updated: August 5, 2025</p>
