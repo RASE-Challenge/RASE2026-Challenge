@@ -145,6 +145,7 @@ section h2 {
     <li>The dataset is split into <strong>training</strong>, <strong>development</strong>, and <strong>test</strong> sets.</li>
     <li><strong>Registered participants</strong> will receive access.</li>
   </ul>
+  <p>📦 <strong>Release date:</strong> September 07, 2025</p>
 </section>
 
 
