@@ -140,7 +140,7 @@ section h2 {
     <li>All recordings are provided in <code>.wav</code> format.</li>
     <li>Raw radar signals are <strong>not shared</strong> — no radar signal processing expertise is needed.</li>
     <li>The dataset is split into <strong>training</strong>, <strong>development</strong>, and <strong>test</strong> sets.</li>
-    <li> Baseline code in <strong>Python</strong>strong> will be provided. </li>
+    <li> Baseline code in <strong>Python</strong> will be provided. </li>
     <li><strong>Registered participants</strong> will be granted access.</li>
   </ul>
   <p>📦 <strong>Release date:</strong> September 07, 2025</p>
