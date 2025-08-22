@@ -94,7 +94,7 @@ section h2 {
 <header class="hero full-bleed">
   <h1>RASE 2026: Radar Acoustic Speech Enhancement</h1>
   <p class="lead">ICASSP 2026 Grand Challenge</p>
-  <p>Speech enhancement through glass using mmWave radar</p>
+  <p>Enhancement of Speech Signals Acquired Through Glass Using mmWave Radar</p>
 
   <div class="btn-row">
     <a href="#about" class="btn">About</a>
