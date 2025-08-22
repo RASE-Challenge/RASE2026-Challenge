@@ -122,19 +122,16 @@ section h2 {
   <h2>Dataset</h2>
   <p>
     Participants will receive a curated dataset comprising paired radar-captured and microphone-recorded speech. The data is collected using a 
-    <strong>TI AWR2243BOOST mmWave FMCW radar</strong> through a <strong>glass-walled meeting room</strong>.
+    <strong>TI AWR2243BOOST mmWave FMCW radar</strong> through a <strong>glass-wall</strong>.
   </p>
 
   <h3>Data Scenarios</h3>
   <ul>
-    <li><strong>Direct diaphragm vibration</strong> (Simplest case)<br>
+    <li><strong>Direct diaphragm vibration</strong> (Simple case)<br>
       Radar captures strong vibrations directly from a loudspeaker diaphragm.
     </li>
-    <li><strong>Secondary surface vibration</strong> (Moderate case)<br>
-      Vibrations are induced on a desktop casing near the loudspeaker.
-    </li>
-    <li><strong>Laptop screen in virtual meeting</strong> (Most challenging)<br>
-      Radar captures subtle vibrations from the laptop screen during speech playback in a simulated meeting setup.
+    <li><strong>Secondary surface vibration</strong> (Challenging case)<br>
+      Vibration captured from an aluminium foil surface placed near the loudspeaker.
     </li>
   </ul>
 
@@ -143,7 +140,8 @@ section h2 {
     <li>All recordings are provided in <code>.wav</code> format.</li>
     <li>Raw radar signals are <strong>not shared</strong> — no radar signal processing expertise is needed.</li>
     <li>The dataset is split into <strong>training</strong>, <strong>development</strong>, and <strong>test</strong> sets.</li>
-    <li><strong>Registered participants</strong> will receive access.</li>
+    <li> Baseline code in <strong>Python</strong>strong> will be provided. </li>
+    <li><strong>Registered participants</strong> will be granted access.</li>
   </ul>
   <p>📦 <strong>Release date:</strong> September 07, 2025</p>
 </section>
@@ -161,9 +159,8 @@ section h2 {
 
   <p><strong>Difficulty-weighted scoring:</strong></p>
   <ul>
-    <li>Easy: 25%</li>
-    <li>Medium: 35%</li>
-    <li>Hard: 40%</li>
+    <li>Easy: 40%</li>
+    <li>Hard: 60%</li>
   </ul>
 
   <p><strong>Top‑5 teams</strong> will be invited to present their work at <strong>ICASSP 2026</strong>.</p>
@@ -187,7 +184,7 @@ section h2 {
   <ul>
     <li>Use only the provided dataset — external data or augmentation is not allowed.</li>
     <li>Train models from scratch (no pre-trained or fine-tuned models).</li>
-    <li>Maximum of 300 training epochs allowed.</li>
+    <li>A maximum of 300 training epochs is allowed.</li>
     <li>Submit code, trained weights, and environment (Docker or requirements file).</li>
     <li>Participants retain all intellectual property rights.</li>
   </ul>
