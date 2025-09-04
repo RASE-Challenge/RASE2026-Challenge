@@ -143,8 +143,8 @@ section h2 {
     <li> Baseline code in <strong>Python</strong> will be provided. </li>
     <li><strong>Registered participants</strong> will be granted access.</li>
   </ul>
-  <p>📦 <strong>Release date:</strong> September 20, 2025 <s>September 07, 2025</s> </p>
-</section>
+  <p>📦 <strong>Release date:</strong> September 21, 2025 <s>September 07, 2025</s> </p>
+</section
 
 
 <section id="evaluation">
@@ -175,7 +175,7 @@ section h2 {
     <li>Phase-aware enhancement techniques</li>
     <li>Feature extraction and post-processing tools</li>
   </ul>
-  <p>📦 <strong>Release date:</strong> September 07, 2025</p>
+  <p>📦 <strong>Release date:</strong> September 20, 2025</p>
 </section>
 
 <section id="guidelines">
@@ -193,8 +193,8 @@ section h2 {
 <section id="timeline">
   <h2>Timeline</h2>
   <ul>
-    <li>📅 <strong>Registration Starts:</strong> <s> September 07, 2025</s> September 21, 2025</li>
-    <li>📂 <strong>Data & Baseline Release:</strong> <s> September 07, 2025</s> September 21, 2025 </li>
+    <li>📅 <strong>Registration Starts:</strong> <s> September 07, 2025</s> September 20, 2025</li>
+    <li>📂 <strong>Data & Baseline Release:</strong> <s> September 07, 2025</s> September 20, 2025 </li>
     <li>🧪 <strong>Submission Deadline:</strong> November 14, 2025</li>
     <li>🏆 <strong>Ranking Announcement:</strong> November 24, 2025</li>
     <li>✍️ <strong>2‑page Papers (by invite):</strong> December 07, 2025</li>
@@ -240,4 +240,4 @@ section h2 {
   <p>📧 <strong>rase-challenge@ntu.edu.sg</strong></p>
 </section>
 
-<p class="updated">Last updated: August 5, 2025</p>
+<p class="updated">Last updated:   Sep 4, 2025</p>
