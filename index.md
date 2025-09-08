@@ -143,8 +143,8 @@ section h2 {
     <li> Baseline code in <strong>Python</strong> will be provided. </li>
     <li><strong>Registered participants</strong> will be granted access.</li>
   </ul>
-  <p>📦 <strong>Release date:</strong> September 21, 2025 <s>September 07, 2025</s> </p>
-</section
+  <p>📦 <strong>Release date:</strong> September 20, 2025 <s>September 07, 2025</s> </p>
+</section>
 
 
 <section id="evaluation">
