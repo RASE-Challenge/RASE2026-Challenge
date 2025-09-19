@@ -88,6 +88,22 @@ section h2 {
   border-radius: 4px;  /* optional */
   display: block;
 }
+    /* GitHub button style for Baseline section */
+  .btn-github {
+    display:inline-block;
+    margin-left:10px;
+    padding:4px 10px;
+    background:#24292e;        /* GitHub dark */
+    color:#fff;
+    border-radius:6px;
+    font-weight:700;
+    text-decoration:none;
+    line-height:1.6;
+    transition:background 0.2s;
+  }
+  .btn-github:hover {
+    background:#444c56;
+  }
 </style>
 
 <!-- Hero Banner (full width) -->
@@ -175,7 +191,10 @@ section h2 {
     <li>Phase-aware enhancement techniques</li>
     <li>Feature extraction and post-processing tools</li>
   </ul>
-  <p>📦 <strong>Release date:</strong> September 20, 2025</p>
+  <p>
+    📦 <strong>Release date:</strong> September 20, 2025
+    <a class="btn-github" href="YOUR_GITHUB_REPO_URL" target="_blank" rel="noopener">GitHub Repository</a>
+  </p>
 </section>
 
 <section id="guidelines">
