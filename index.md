@@ -192,8 +192,32 @@ section h2 {
 
 <section id="timeline">
   <h2>Timeline</h2>
+   <style>
+    .btn-register {
+      display:inline-block;
+      margin-left:10px;
+      padding:4px 10px;
+      background:#e02424;           /* red */
+      color:#fff;
+      border-radius:8px;
+      font-weight:700;
+      text-decoration:none;
+      line-height:1.6;
+      box-shadow:0 0 0 0 rgba(224,36,36,0.7);
+      animation:pulse 1.6s infinite; /* “live” effect */
+    }
+    @keyframes pulse {
+      0%   { box-shadow:0 0 0 0 rgba(224,36,36,0.7); }
+      70%  { box-shadow:0 0 0 10px rgba(224,36,36,0); }
+      100% { box-shadow:0 0 0 0 rgba(224,36,36,0); }
+    }
+  </style>
   <ul>
-    <li>📅 <strong>Registration Starts:</strong> <s> September 07, 2025</s> September 20, 2025</li>
+    <li>
+      📅 <strong>Registration Starts:</strong>
+      <s> September 07, 2025</s> September 20, 2025
+      <a class="btn-register" href="YOUR_GOOGLE_FORM_URL" target="_blank" rel="noopener">REGISTER HERE</a>
+    </li>
     <li>📂 <strong>Data & Baseline Release:</strong> <s> September 07, 2025</s> September 20, 2025 </li>
     <li>🔎 <strong>Validation Submission Phase Starts:</strong> September 27, 2025</li>
     <li>🚀 <strong>Test Submission Phase Starts:</strong> November 14, 2025</li>
