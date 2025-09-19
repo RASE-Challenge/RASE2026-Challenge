@@ -195,7 +195,9 @@ section h2 {
   <ul>
     <li>📅 <strong>Registration Starts:</strong> <s> September 07, 2025</s> September 20, 2025</li>
     <li>📂 <strong>Data & Baseline Release:</strong> <s> September 07, 2025</s> September 20, 2025 </li>
-    <li>🧪 <strong>Submission Deadline:</strong> November 14, 2025</li>
+    <li>🔎 <strong>Validation Submission Phase Starts:</strong> September 27, 2025</li>
+    <li>🚀 <strong>Test Submission Phase Starts:</strong> November 14, 2025</li>
+    <li>🧪 <strong>Submission Deadline:</strong> November 20, 2025</li>
     <li>🏆 <strong>Ranking Announcement:</strong> November 24, 2025</li>
     <li>✍️ <strong>2‑page Papers (by invite):</strong> December 07, 2025</li>
     <li>✅ <strong>Acceptance Notification:</strong> January 11, 2026</li>
