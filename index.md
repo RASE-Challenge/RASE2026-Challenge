@@ -193,7 +193,7 @@ section h2 {
   </ul>
   <p>
     📦 <strong>Release date:</strong> September 20, 2025
-    <a class="btn-github" href="YOUR_GITHUB_REPO_URL" target="_blank" rel="noopener">GitHub Repository</a>
+    <a class="btn-github" href="https://github.com/RASE-Challenge/challenge_baseline2026" target="_blank" rel="noopener">GitHub Repository</a>
   </p>
 </section>
 
