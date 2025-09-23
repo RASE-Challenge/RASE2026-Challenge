@@ -161,7 +161,7 @@ section h2 {
   </ul>
   <p>📦 <strong>Release date:</strong> September 20, 2025 <s>September 07, 2025</s> </p>
   <p><em>To know more about the problem statement, go to this page:</em>
-    <a href="/problem-statement/">Problem Statement</a>
+  <a href="{{ '/problem-statement/' | relative_url }}">Problem Statement</a>
   </p>
 </section>
 
