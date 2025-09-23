@@ -4,8 +4,6 @@ layout: single
 permalink: /problem-statement/
 ---
 
-# Problem Statement
-
 The **Radar Acoustic Speech Enhancement (RASE) Challenge 2026** focuses on reconstructing intelligible, full-bandwidth speech from signals captured using mmWave radar. The figures below illustrate the two main data scenarios in this challenge and highlight the difficulty of the task.
 
 **Figures 1 and 2** show four panels comparing clean speech (left) with radar-captured speech (right) for two different scenarios.
