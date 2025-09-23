@@ -132,6 +132,10 @@ section h2 {
   <p>
     Conventional microphones struggle in noisy or occluded environments. mmWave FMCW radar offers a non-contact alternative by capturing surface vibrations induced by speech. However, radar-captured signals are often band-limited and noisy. This challenge aims to bridge the gap between radar sensing and high-quality speech reconstruction.
   </p>
+
+  <p><em>To know more about the problem statement, go to this page:</em>
+  <a href="{{ '/problem-statement/' | relative_url }}">Problem Statement</a>
+  </p>
 </section>
 
 <section id="dataset">
@@ -160,9 +164,6 @@ section h2 {
     <li><strong>Registered participants</strong> will be granted access.</li>
   </ul>
   <p>📦 <strong>Release date:</strong> September 20, 2025 <s>September 07, 2025</s> </p>
-  <p><em>To know more about the problem statement, go to this page:</em>
-  <a href="{{ '/problem-statement/' | relative_url }}">Problem Statement</a>
-  </p>
 </section>
 
 
