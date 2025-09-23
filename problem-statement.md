@@ -17,7 +17,8 @@ The **Radar Acoustic Speech Enhancement (RASE) Challenge 2026** focuses on recon
 The left plots show the waveform and spectrogram of the clean reference speech played through a loudspeaker. The right plots show the corresponding radar-captured signal obtained by sensing the **direct vibration of the loudspeaker diaphragm**. While speech content is clearly visible in the clean spectrogram, the radar signal appears noisier and exhibits a limited bandwidth. This represents the **simpler case**, where the radar has a strong vibrating source.
 
 <figure>
-  <img src="/assets/image/rase_fig1.png" alt="Figure 1: Clean vs radar-captured speech for direct diaphragm vibration (waveform and spectrogram)">
+  <img src="{{ '/assets/images/rase_fig1.png' | relative_url }}"
+     alt="Figure 1: Clean vs radar-captured speech for direct diaphragm vibration (waveform and spectrogram)">
   <figcaption><strong>Figure 1.</strong> Direct diaphragm vibration (Task 1): clean (left) vs radar-captured (right).</figcaption>
 </figure>
 
@@ -28,7 +29,8 @@ The left plots show the waveform and spectrogram of the clean reference speech p
 The left plots again show the clean speech waveform and spectrogram, but here the radar senses vibrations from a **thin aluminium foil** placed near the loudspeaker. The radar-captured signal (right) is significantly more noisy, and speech components in the spectrogram are almost buried under the noise floor. This represents the **more challenging case**, where speech must be recovered from very weak, indirect surface vibrations.
 
 <figure>
-  <img src="/assets/image/rase_fig2.png" alt="Figure 2: Clean vs radar-captured speech for secondary surface vibration (waveform and spectrogram)">
+  <img src="{{ '/assets/images/rase_fig2.png' | relative_url }}"
+     alt="Figure 2: Clean vs radar-captured speech for secondary surface vibration (waveform and spectrogram)">
   <figcaption><strong>Figure 2.</strong> Secondary surface vibration (Task 2): clean (left) vs radar-captured (right).</figcaption>
 </figure>
 
