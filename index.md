@@ -242,7 +242,7 @@ section h2 {
       <a class="btn-register" href="https://docs.google.com/forms/d/e/1FAIpQLSeIQP1RZE3UJ9LGL11dYBFRxolp1ekC6-W7kR1a_j8KPmHUOw/viewform?usp=sharing&ouid=101810688251419539078" target="_blank" rel="noopener">REGISTER HERE</a>
     </li>
     <li>📂 <strong>Data & Baseline Release:</strong> <s> September 07, 2025</s> September 20, 2025 </li>
-    <li>🔎 <strong>Validation Submission Phase Starts:</strong> September 27, 2025</s> October 3, 2025</li>
+    <li>🔎 <strong>Validation Submission Phase Starts:</strong> <s> September 27, 2025</s> October 3, 2025</li>
     <li>🚀 <strong>Test Submission Phase Starts:</strong> November 14, 2025</li>
     <li>🧪 <strong>Submission Deadline:</strong> November 20, 2025</li>
     <li>🏆 <strong>Ranking Announcement:</strong> November 24, 2025</li>
