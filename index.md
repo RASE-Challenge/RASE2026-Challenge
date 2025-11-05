@@ -121,6 +121,7 @@ section h2 {
     <a href="#timeline" class="btn">Timeline</a>
     <a href="#organizers" class="btn">Organizers</a>
     <a href="#contact" class="btn">Contact</a>
+    <a href="{{ '/faq/' | relative_url }}" class="btn">FAQ</a>
   </div>
 </header>
 
