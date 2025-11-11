@@ -56,7 +56,7 @@ Short answer: No.
 
 Details: The test submission follows the same procedure as validation (e.g., results & metadata upload flow).
 
-## Is it allowed to create additional degraded data (e.g., by adding Gaussian noise to clean voice samples) for training or evaluation?**
+## Is it allowed to create additional degraded data (e.g., by adding Gaussian noise to clean voice samples) for training or evaluation?
 
 Short answer: No.
 
