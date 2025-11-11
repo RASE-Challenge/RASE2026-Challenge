@@ -55,3 +55,9 @@ Reporting: For publications, include ablation studies showing why the two-stage 
 Short answer: No.
 
 Details: The test submission follows the same procedure as validation (e.g., results & metadata upload flow).
+
+## Is it allowed to create additional degraded data (e.g., by adding Gaussian noise to clean voice samples) for training or evaluation?**
+
+Short answer: No.
+
+Details: Creating any additional degraded data, including by adding Gaussian noise or other distortions to clean voice samples, is considered data augmentation and is forbidden. Please focus solely on the machine learning and deep learning model design, training, and optimization using the provided data without generating new degraded variants.
