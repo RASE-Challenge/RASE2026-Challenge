@@ -246,7 +246,7 @@ section h2 {
     <li>🔎 <strong>Validation Submission Phase Starts:</strong> <s> September 27, 2025</s> October 5, 2025</li>
     <li>🚀 <strong>Test Submission Phase Starts:</strong> November 14, 2025</li>
     <li>🧪 <strong>Submission Deadline:</strong> <s> November 20, 2025</s> November 22, 2025, 23:59 UTC+0 </li>
-    <li>🏆 <strong>Ranking Announcement:</strong> November 24, 2025</li>
+    <li>🏆 <strong>Ranking Announcement:</strong> <s> November 24, 2025</s>November 26, 2025</li>
     <li>✍️ <strong>2‑page Papers (by invite):</strong> December 07, 2025</li>
     <li>✅ <strong>Acceptance Notification:</strong> January 11, 2026</li>
     <li>📌 <strong>Camera‑ready Deadline:</strong> January 18, 2026</li>
