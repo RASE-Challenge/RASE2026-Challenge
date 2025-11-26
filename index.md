@@ -240,18 +240,22 @@ section h2 {
     <li>
       📅 <strong>Registration Starts:</strong>
       <s> September 07, 2025</s> September 20, 2025
-      <a class="btn-register" href="https://docs.google.com/forms/d/e/1FAIpQLSeIQP1RZE3UJ9LGL11dYBFRxolp1ekC6-W7kR1a_j8KPmHUOw/viewform?usp=sharing&ouid=101810688251419539078" target="_blank" rel="noopener">REGISTER HERE</a>
+      <!-- Red button removed now that registration is over -->
     </li>
     <li>📂 <strong>Data & Baseline Release:</strong> <s> September 07, 2025</s> September 20, 2025 </li>
     <li>🔎 <strong>Validation Submission Phase Starts:</strong> <s> September 27, 2025</s> October 5, 2025</li>
     <li>🚀 <strong>Test Submission Phase Starts:</strong> November 14, 2025</li>
     <li>🧪 <strong>Submission Deadline:</strong> <s> November 20, 2025</s> November 22, 2025, 23:59 UTC+0 </li>
-    <li>🏆 <strong>Ranking Announcement:</strong> <s> November 24, 2025</s> November 26, 2025</li>
-    <li>✍️ <strong>2‑page Papers (by invite):</strong> December 07, 2025</li>
+    <li>
+      🏆 <strong>Ranking Announcement:</strong> <s> November 24, 2025</s> November 26, 2025
+      <a class="btn-register" href="{{ '/results/' | relative_url }}" target="_blank" rel="noopener">VIEW RESULTS</a>
+    </li>
+    <li>✍️ <strong>2-page Papers (by invite):</strong> December 07, 2025</li>
     <li>✅ <strong>Acceptance Notification:</strong> January 11, 2026</li>
-    <li>📌 <strong>Camera‑ready Deadline:</strong> January 18, 2026</li>
+    <li>📌 <strong>Camera-ready Deadline:</strong> January 18, 2026</li>
   </ul>
 </section>
+
 
 <section id="organizers">
   <h2>Organizers</h2>
