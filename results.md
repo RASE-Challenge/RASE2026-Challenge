@@ -41,7 +41,7 @@ Below are the top-ranked teams in the **RASE 2026: Radar Acoustic Speech Enhance
     </tr>
     <tr>
       <td>5</td>
-      <td>Team&nbsp;5&nbsp;Name</td>
+      <td>OriginWireless</td>
       <td>0.2520</td>
     </tr>
   </tbody>
