@@ -294,4 +294,4 @@ section h2 {
   <p>📧 <strong>rase-challenge@ntu.edu.sg</strong></p>
 </section>
 
-<p class="updated">Last updated:   Oct 01, 2025</p>
+<p class="updated">Last updated:   Nov 28, 2025</p>
