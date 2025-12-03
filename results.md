@@ -46,4 +46,4 @@ Below are the top-ranked teams in the **RASE 2026: Radar Acoustic Speech Enhance
     </tr>
   </tbody>
 </table>
-\* Team names are updated on the request of the top five candidates.
+<p><small>* Team names are updated on the request of the top five candidates.</small></p>
