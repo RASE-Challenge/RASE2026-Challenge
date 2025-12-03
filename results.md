@@ -26,23 +26,24 @@ Below are the top-ranked teams in the **RASE 2026: Radar Acoustic Speech Enhance
     </tr>
     <tr>
       <td>2</td>
-      <td>Rookie Cops</td>
+      <td>ZJU_ShulinZhu</td>
       <td>0.33</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>ASEU</td>
+      <td>USTC-NERCSLIP</td>
       <td>0.26</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>Quantz</td>
+      <td>Team Quantz</td>
       <td>0.2526</td>
     </tr>
     <tr>
       <td>5</td>
-      <td>OriginWireless</td>
+      <td>Origin-Research</td>
       <td>0.2520</td>
     </tr>
   </tbody>
 </table>
+\* Team names are updated on the request of the top five candidates.
