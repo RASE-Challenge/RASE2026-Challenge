@@ -216,7 +216,7 @@ section h2 {
 </section>
 
 <section id="papersubmission">
-  <h2>Paper Submission Guideline</h2>
+  <h2>Paper Submission Guidelines</h2>
   <ul>
     <li>Papers must follow the official ICASSP paper template (including ICASSP LaTeX style files or Word template).</li>
     <li>Maximum length: 2 pages of technical content + 1 additional page for references only (total maximum 3 pages).</li>
