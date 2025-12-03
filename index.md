@@ -250,9 +250,9 @@ section h2 {
       🏆 <strong>Ranking Announcement:</strong> <s> November 24, 2025</s> November 26, 2025
       <a class="btn-register" href="{{ '/results/' | relative_url }}" target="_blank" rel="noopener">VIEW RESULTS</a>
     </li>
-    <li>✍️ <strong>2-page Papers (by invite):</strong> December 07, 2025</li>
-    <li>✅ <strong>Acceptance Notification:</strong> January 11, 2026</li>
-    <li>📌 <strong>Camera-ready Deadline:</strong> January 18, 2026</li>
+    <li>✍️ <strong>2-page Papers (by invite):</strong> <s> December 07, 2025</s> January 07, 2026</li>
+    <li>✅ <strong>Acceptance Notification:</strong> <s> January 11, 2026</s> January 21, 2026</li>
+    <li>📌 <strong>Camera-ready Deadline:</strong> <s> January 18, 2026</s> January 28, 2026</li>
   </ul>
 </section>
 
@@ -294,4 +294,4 @@ section h2 {
   <p>📧 <strong>rase-challenge@ntu.edu.sg</strong></p>
 </section>
 
-<p class="updated">Last updated:   Nov 28, 2025</p>
+<p class="updated">Last updated:   Dec 03, 2025</p>
