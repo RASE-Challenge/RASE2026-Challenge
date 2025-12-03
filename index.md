@@ -118,6 +118,7 @@ section h2 {
     <a href="#evaluation" class="btn">Evaluation</a>
     <a href="#baseline" class="btn">Baseline</a>
     <a href="#guidelines" class="btn">Guidelines</a>
+    <a href="#papersubmission" class="btn">Paper Submission</a>
     <a href="#timeline" class="btn">Timeline</a>
     <a href="#organizers" class="btn">Organizers</a>
     <a href="#contact" class="btn">Contact</a>
@@ -213,6 +214,17 @@ section h2 {
     <li>Participants retain all intellectual property rights.</li>
   </ul>
 </section>
+
+<section id="papersubmission">
+  <h2>Paper Submission Guideline</h2>
+  <ul>
+    <li>Papers must follow the official ICASSP paper template (including ICASSP LaTeX style files or Word template).</li>
+    <li>Maximum length: 2 pages of technical content + 1 additional page for references only (total maximum 3 pages).</li>
+    <li>The reference page should contain only references (no technical content, figures, or tables allowed on the third page).</li>
+  </ul>
+</section>
+
+
 
 <section id="timeline">
   <h2>Timeline</h2>
