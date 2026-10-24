@@ -180,7 +180,7 @@ section h2 {
     <li>Raw radar signals are <strong>not shared</strong> — no radar signal processing expertise is needed.</li>
     <li>The dataset is split into <strong>training</strong>, <strong>development</strong>, and <strong>test</strong> sets.</li>
     <li> Baseline code in <strong>Python</strong> will be provided. </li>
-    <li><strong>Registered participants</strong> will be granted access.</li>
+    <li>The dataset is <strong>publicly available</strong> to all participants and researchers.</li>
   </ul>
   <p>
   📦 <strong>Release date:</strong>
