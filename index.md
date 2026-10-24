@@ -104,6 +104,23 @@ section h2 {
   .btn-github:hover {
     background:#444c56;
   }
+  /* Dataset download button */
+  .btn-dataset {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 4px 10px;
+    background: #0f4c81;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.6;
+    transition: background 0.2s;
+  }
+
+  .btn-dataset:hover {
+    background: #28a745;
+  }
 </style>
 
 <!-- Hero Banner (full width) -->
@@ -165,7 +182,17 @@ section h2 {
     <li> Baseline code in <strong>Python</strong> will be provided. </li>
     <li><strong>Registered participants</strong> will be granted access.</li>
   </ul>
-  <p>📦 <strong>Release date:</strong> September 20, 2025 <s>September 07, 2025</s> </p>
+  <p>
+  📦 <strong>Release date:</strong>
+  <s>September 07, 2025</s> September 20, 2025
+
+  <a class="btn-dataset"
+     href="https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/YIU09T&faces-redirect=true"
+     target="_blank"
+     rel="noopener">
+     DOWNLOAD DATASET
+  </a>
+</p>
 </section>
 
 
